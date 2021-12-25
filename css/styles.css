@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
 #canvas1 {
   position: absolute;
   background-color: black;
@@ -5,4 +13,12 @@
   height: 100%;
   top: 0;
   left: 0;
+  z-index: 1;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  z-index: 2;
 }
